@@ -55,7 +55,8 @@ This project is licensed under the MIT License. You can find more details in the
 
 This README provides an overview of the script's functionality, customization options, usage instructions, and contribution guidelines. Feel free to customize it further to suit your project's 
 
-https://github.com/sanchitsingh-9163/AnimationUsingPython/assets/72063118/e89997c4-8e42-4c11-a3a9-9759de910e1d
+You can adjust the resolution on by your own easily just go and change width and length parameter in the code
 
-requirements!
+Final Result (Resolution 300 x 534)
 
+https://github.com/sanchitsingh-9163/AnimationUsingPython/assets/72063118/c245fdc4-62b9-45d9-b4bd-f0038467e1b8
