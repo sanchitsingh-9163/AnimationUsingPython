@@ -1,6 +1,4 @@
-Certainly! Here's an explanation of the code for the README file:
 
----
 
 # Stick Figure Animation
 
