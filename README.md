@@ -12,9 +12,23 @@ The script defines a `matrix` class that represents an image as a binary matrix 
 
 The `matrix` class loads an image using OpenCV, resizes it, converts it to grayscale, and then applies a binary threshold to obtain a binary matrix representing the stick figure.
 
-## 3. Displaying the Animation
 
-The script creates a tkinter window and displays the stick figure animation by updating the pixel grid with each frame of the stick figure images.
+Sure, here's an updated section in the README file to highlight the performance difference between tkinter and matplotlib:
+
+3. Displaying the Animation
+The script uses tkinter to create a pixel grid and display the stick figure animation. While tkinter provides a simple way to create graphical user interfaces in Python, it may not be the most efficient option for real-time animation.
+
+Performance Comparison
+In some cases, tkinter's performance may be slower compared to other libraries like matplotlib, especially when dealing with complex animations or large datasets. Consider using matplotlib's animation functionalities for improved performance if tkinter's performance becomes a bottleneck for your application.
+
+Alternative Options
+If performance is a concern, you can explore alternative libraries and tools for displaying animations in Python, such as:
+
+Matplotlib: Matplotlib provides a wide range of plotting functionalities, including animations, which can be more efficient for certain types of animations.
+Pygame: Pygame is a popular library for creating 2D games and multimedia applications in Python. It offers efficient sprite-based animation capabilities.
+OpenGL: OpenGL is a cross-platform graphics API that can be used for high-performance 2D and 3D graphics rendering. It provides low-level access to the GPU for maximum performance.
+Experimentation
+Feel free to experiment with different libraries and approaches to find the best solution for your specific animation requirements and performance constraints.
 
 ## 4. Customization
 
@@ -39,4 +53,9 @@ This project is licensed under the MIT License. You can find more details in the
 
 ---
 
-This README provides an overview of the script's functionality, customization options, usage instructions, and contribution guidelines. Feel free to customize it further to suit your project's requirements!
+This README provides an overview of the script's functionality, customization options, usage instructions, and contribution guidelines. Feel free to customize it further to suit your project's 
+
+https://github.com/sanchitsingh-9163/AnimationUsingPython/assets/72063118/e89997c4-8e42-4c11-a3a9-9759de910e1d
+
+requirements!
+
