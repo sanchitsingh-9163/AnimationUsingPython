@@ -12,23 +12,11 @@ The script defines a `matrix` class that represents an image as a binary matrix 
 
 The `matrix` class loads an image using OpenCV, resizes it, converts it to grayscale, and then applies a binary threshold to obtain a binary matrix representing the stick figure.
 
-
-Sure, here's an updated section in the README file to highlight the performance difference between tkinter and matplotlib:
-
-3. Displaying the Animation
+## 3. Displaying the Animation
 The script uses tkinter to create a pixel grid and display the stick figure animation. While tkinter provides a simple way to create graphical user interfaces in Python, it may not be the most efficient option for real-time animation.
 
 Performance Comparison
 In some cases, tkinter's performance may be slower compared to other libraries like matplotlib, especially when dealing with complex animations or large datasets. Consider using matplotlib's animation functionalities for improved performance if tkinter's performance becomes a bottleneck for your application.
-
-Alternative Options
-If performance is a concern, you can explore alternative libraries and tools for displaying animations in Python, such as:
-
-Matplotlib: Matplotlib provides a wide range of plotting functionalities, including animations, which can be more efficient for certain types of animations.
-Pygame: Pygame is a popular library for creating 2D games and multimedia applications in Python. It offers efficient sprite-based animation capabilities.
-OpenGL: OpenGL is a cross-platform graphics API that can be used for high-performance 2D and 3D graphics rendering. It provides low-level access to the GPU for maximum performance.
-Experimentation
-Feel free to experiment with different libraries and approaches to find the best solution for your specific animation requirements and performance constraints.
 
 ## 4. Customization
 
@@ -46,15 +34,7 @@ Feel free to experiment with different libraries and approaches to find the best
 ## 6. Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
-
-## 7. License
-
-This project is licensed under the MIT License. You can find more details in the [LICENSE](LICENSE) file.
-
 ---
-
-This README provides an overview of the script's functionality, customization options, usage instructions, and contribution guidelines. Feel free to customize it further to suit your project's 
-
 You can adjust the resolution on by your own easily just go and change width and length parameter in the code
 
 Final Result (Resolution 300 x 534)
